@@ -10,9 +10,7 @@ def home():
 
 @app.route('/predict',methods=['POST'])
 def predict():
-    '''
-    For rendering results on HTML GUI
-    '''
+
     gender = request.form.get('gender')
     age = float(request.form.get('age'))
     height = float(request.form.get('height') )
@@ -31,9 +29,9 @@ def predict():
     prediction = loaded_model.predict(data)[0]
 
     if prediction < 0:
-        return render_template('index.html', prediction_text='Check Your Data Again')    
+        return render_template('index.html', prediction_text='Check Your Data Again')
     else:
-        return render_template('index.html', prediction_text='You have burned {} calories.'.format(prediction))
+        return render_template('index.html', prediction_text='You have burned {:.2f} calories.'.format(prediction))
 
 if __name__ == "__main__":
     app.run(debug=True)
