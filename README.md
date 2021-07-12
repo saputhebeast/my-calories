@@ -7,7 +7,7 @@
 <ul>
   <li>You must have: </li>
   <ul>
-    <li>Flask, Numpy, Pandas, Joblib, Scikit-learn</li>
+    <li>Flask, Numpy, Pandas, Joblib, Scikit-learn, Matplotlib</li>
   </ul>
   <li>Run below code line in cmd to install required packages.</li>
   <ul><li><code>pip install -r requirements.txt</code></li></ul>
