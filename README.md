@@ -2,7 +2,9 @@
 <p>My Calories is a demo mini project elaborating how a linear regression model is deployed using Flask, HTML and CSS.</p>
 
 <h2>Project Demo</h2>
-<img src="https://github.com/saputhebeast/my-calaries/blob/main/demo/demo.gif">
+<video>
+  <source src="https://github.com/saputhebeast/my-calaries/blob/main/demo/demo.mp4" type="video/mp4">
+</video>
 
 <h2>Requirements</h2>
 <ul>
