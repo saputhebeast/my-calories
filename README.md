@@ -1,5 +1,5 @@
 <h1>My Calories</h1>
-<p>My Calories is a demo mini project elaborating how a linear regression model is deployed using Flask, HTML and CSS.</p>
+<p>My Calories is a mini project elaborating how a linear regression model is deployed using Flask, HTML and CSS.</p>
 
 <h2>Project Demo</h2>
 <p style="text-align: center;"><img src="https://github.com/saputhebeast/my-calaries/blob/main/demo/demo.gif" width="1024" height="640" /></p>
