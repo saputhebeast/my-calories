@@ -1,7 +1,6 @@
 <h1>My Calories</h1>
-<p>My Calories is a demo mini project elaborating how a linear regression model is deployed using flask, html and css.</p>
 
-<h2>Demo</h2>
+<h2>Project Demo</h2>
 
 <h2>Requirements</h2>
 <p>You must have: </p>
