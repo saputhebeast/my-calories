@@ -1,4 +1,3 @@
-from pickle import load
 import joblib
 
 loaded_model = joblib.load("calories_model.sav")
