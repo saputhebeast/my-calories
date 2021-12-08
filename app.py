@@ -2,7 +2,7 @@ from flask import Flask, request, render_template
 import joblib
 
 app = Flask(__name__)
-loaded_model = joblib.load("./model/calories_model.sav")
+loaded_model = joblib.load("calories_model.sav")
 
 @app.route('/')
 def home():
